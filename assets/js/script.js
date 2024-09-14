@@ -40,3 +40,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const headerHeight = document.querySelector('header').offsetHeight;
 
+
+// Top button
+window.addEventListener('scroll', function() {
+  const backToTopBtn = document.querySelector('.back-top-btn');
+  console.log('Scroll event triggered');
+  if (window.pageYOffset > 300) {
+    backToTopBtn.style.opacity = '0.5';
+  } else {
+    backToTopBtn.style.opacity = '0';
+  }
+});

@@ -1,10 +1,7 @@
 :root {
 
 
-  
-  /**
-   * colors
-   */
+  /* colors */
 
   --international-orange-engineering: hsl(1, 91%, 37%);
   --cadet-blue-creyola: hsl(222, 14%, 69%);
@@ -18,9 +15,7 @@
   --light-gray: hsl(0, 0%, 80%);
   --white: hsl(0, 0%, 100%);
 
-  /**
-   * typography
-   */
+  /* Font Preset */
 
   --ff-chakra-petch: 'Chakra Petch', sans-serif;
   --ff-mulish: 'Mulish', sans-serif;
@@ -36,28 +31,20 @@
   --fw-600: 600;
   --fw-700: 700;
 
-  /**
-   * spacing
-   */
+  /* spacing */
 
   --section-padding: 60px;
 
-  /**
-   * box shadow
-   */
+  /* box shadow */
 
   --shadow: 0px 0px 100px 0px hsl(216, 9%, 90%);
 
-  /**
-   * border radius
-   */
+  /* border radius */
 
   --radius-pill: 100px;
   --radius-circle: 50%;
 
-  /**
-   * transition
-   */
+  /* transition */
 
   --transition: 0.25s ease;
   --cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
@@ -75,10 +62,6 @@ body {
   transform: translateZ(0);
 }
 
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
 
 *,
 *::before,
@@ -137,7 +120,7 @@ body {
 
 
 
-/*#REUSED STYLE*/
+/* Style */
 
 
 .container { padding-inline: 16px; }
@@ -610,26 +593,15 @@ body {
 }
 
 
-
-
-
 /*mediaQ*/
 
-/**
- * responsive for large than 575px screen
- */
 
 @media (min-width: 575px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
 
   :root {
 
-    /**
-     * typography
-     */
+    /* Font Preset */
 
     --fs-2: 4rem;
     --fs-3: 2.8rem;
@@ -639,9 +611,7 @@ body {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+ /* style */
 
   .container {
     max-width: 540px;
@@ -655,9 +625,7 @@ body {
 
 
 
-  /**
-   * HERO
-   */
+  /* Hero */
 
   .hero .container { max-width: unset; }
 
@@ -670,9 +638,7 @@ body {
 
 
 
-  /**
-   * SERVICE
-   */
+  /* Service */
 
   .service .section-title { margin-block-end: 30px; }
 
@@ -685,9 +651,7 @@ body {
 
   
 
-  /**
-   * ABOUT
-   */
+  /* About */
 
   .about-list {
     grid-template-columns: 1fr 1fr;
@@ -698,17 +662,13 @@ body {
 
 
 
-  /**
-   * WORK
-   */
+  /* Work */
 
   .scrollbar-item { min-width: calc(50% - 15px); }
 
 
 
-  /**
-   * FOOTER
-   */
+  /* Footer */
 
   .footer-top {
     position: relative;
@@ -728,23 +688,15 @@ body {
 
 
 
-
-
-/**
- * responsive for large than 768px screen
- */
+/* responsive for large than 768px screen */
 
 @media (min-width: 768px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+ 
 
   :root {
 
-    /**
-     * typography
-     */
+   /* Font Preset */
 
     --fs-1: 4rem;
     --fs-2: 5rem;
@@ -754,9 +706,7 @@ body {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /* Style */
 
   .container,
   .hero-content { max-width: 720px; }
@@ -772,9 +722,7 @@ body {
 
 
 
-  /**
-   * HERO
-   */
+  /* Hero */
 
   .hero { --section-padding: 120px; }
 
@@ -782,9 +730,7 @@ body {
 
 
 
-  /**
-   * SERVICE
-   */
+  /* Service */
 
   .service-banner {
     display: block;
@@ -804,9 +750,7 @@ body {
 
 
 
-  /**
-   * ABOUT
-   */
+  /* About */
    
   .about-banner { max-width: max-content; }
 
@@ -817,9 +761,7 @@ body {
 
 
 
-  /**
-   * FOOTER
-   */
+  /* Footer */
 
   .footer-top .container { grid-template-columns: 1fr 0.9fr 0.9fr; }
 
@@ -831,29 +773,20 @@ body {
 
 
 
-/**
- * responsive for large than 992px screen
- */
+/* responsive for large than 992px screen */
 
 @media (min-width: 992px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
 
   :root {
 
-    /**
-     * typography
-     */
+    /* Font Preset */
 
     --fs-2: 4.4rem;
     --fs-3: 3.8rem;
     --fs-4: 2.2rem;
 
-    /**
-     * spacing
-     */
+    /* spacing */
 
     --section-padding: 100px;
 
@@ -861,9 +794,7 @@ body {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /* Style */
 
   .container { max-width: 960px; }
 
@@ -872,9 +803,7 @@ body {
 
 
 
-  /**
-   * HEADER
-   */
+  /* Header */
 
   .nav-toggle-btn { display: none; }
 
@@ -918,9 +847,7 @@ body {
 
 
 
-  /**
-   * HERO
-   */
+  /* Hero */
 
   .hero {
     text-align: left;
@@ -940,9 +867,7 @@ body {
 
 
 
-  /**
-   * SERVICE
-   */
+  /* Service */
 
   .service-card .card-text {
     padding-inline: 25px;
@@ -964,9 +889,7 @@ body {
 
 
 
-  /**
-   * ABOUT
-   */
+  /* About */
 
   .about {
     position: relative;
@@ -1006,9 +929,7 @@ body {
 
 
 
-  /**
-   * WORK
-   */
+  /* Work */
 
   .has-scrollbar { overflow-x: visible; }
 
@@ -1020,21 +941,14 @@ body {
 
 
 
-/**
- * responsive for large than 1200px screen
- */
+/* responsive for large than 1200px screen */
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
 
   :root {
 
-    /**
-     * typography
-     */
+    /* Font Preset */
 
     --fs-2: 5rem;
     --fs-3: 4.6rem;
@@ -1043,9 +957,7 @@ body {
 
 
 
-  /**
-   * REUSED STYLE
-   */
+  /* Style */
 
   .container,
   .hero .container { max-width: 1140px; }
@@ -1056,9 +968,7 @@ body {
 
 
 
-  /**
-   * HEADER
-   */
+  /* Header */
 
   .header { padding-block: 25px; }
 
@@ -1071,9 +981,7 @@ body {
 
 
 
-  /**
-   * HERO
-   */
+  /* Hero */
 
   .hero { padding-block: 250px 180px; }
 
@@ -1088,9 +996,7 @@ body {
 
 
 
-  /**
-   * SERVICE
-   */
+  /* Service */
 
   .service .section-title { max-width: 700px; }
 
@@ -1119,9 +1025,7 @@ body {
 
 
 
-  /**
-   * WORK
-   */
+  /* Work */
 
   .work-card .card-btn {
     font-size: 2.4rem;
@@ -1131,9 +1035,7 @@ body {
 
 
 
-  /**
-   * FOOTER
-   */
+/* Footer */
 
   .footer-top { padding-block: 150px; }
 
@@ -1164,37 +1066,25 @@ body {
 
 
 
-/**
- * responsive for large than 1400px screen
- */
+/* responsive for large than 1400px screen */
 
 @media (min-width: 1400px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
 
   :root {
 
-    /**
-     * typography
-     */
+    /* Font Preset */
 
     --fs-2: 6rem;
 
-    /**
-     * spacing
-     */
+    /* Spacing */
 
     --section-padding: 140px;
 
   }
 
 
-
-  /**
-   * REUSED STYLE
-   */
+/* Style */
 
   :is(.header, .hero) .container { max-width: 1280px; }
 
@@ -1205,17 +1095,13 @@ body {
 
 
 
-  /**
-   * HEADER
-   */
+  /* Header */
 
   .header .btn { padding: 18px 36px; }
 
 
 
-  /**
-   * HERO
-   */
+  /* Hero */
 
   .hero { padding-block: 280px; }
 
@@ -1225,9 +1111,7 @@ body {
 
 
 
-  /**
-   * ABOUT
-   */
+  /* About */
 
   .about::before { width: 55%; }
 
@@ -1235,9 +1119,7 @@ body {
 
 
 
-  /**
-   * FOOTER
-   */
+  /* Footer */
 
   .footer-top .container { padding-inline-start: 20%; }
 
